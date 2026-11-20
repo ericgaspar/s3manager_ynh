@@ -42,6 +42,7 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    extract = true
     url = "https://github.com/cloudlena/s3manager/releases/download/v0.13.0/s3manager_0.13.0_linux_amd64.tar.gz"
     sha256 = "c3a5dffb71c7516457a54e138d9a981f5bafdf080a6342853a0a7281aa94191f"
 
